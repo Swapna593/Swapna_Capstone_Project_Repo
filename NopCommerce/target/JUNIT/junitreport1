@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="158.41" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-09-06T03:26:51.474678Z">
+<testcase classname="nopCommerce User Registration" name="Successful registration with valid data - #1.1" time="12.733">
+<system-out><![CDATA[
+Given User launches the browser and navigates to homepage...................passed
+When User navigates to the Register page....................................passed
+And User selects gender as "Female".........................................passed
+And User enters First name "MARY SWAPNA" and Last name "ANKIREDDY"..........passed
+And User enters unique "swapnaankireddy92@gmail.com"........................passed
+And User sets password "abc123" and confirms password.......................passed
+And User clicks on the Register button......................................passed
+Then A success message should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce User Registration" name="Successful registration with valid data - #1.2" time="13.403">
+<system-out><![CDATA[
+Given User launches the browser and navigates to homepage...................passed
+When User navigates to the Register page....................................passed
+And User selects gender as "Male"...........................................passed
+And User enters First name "Prathap" and Last name "ANKIREDDY"..............passed
+And User enters unique "ankireddyprathap@gmail.com".........................passed
+And User sets password "abc123" and confirms password.......................passed
+And User clicks on the Register button......................................passed
+Then A success message should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce user Login" name="Logging in with valid or invalid credentials - #1.1" time="7.789">
+<system-out><![CDATA[
+Given the user opens the browser and navigates to website...................passed
+When the user enters email "swapnaankireddy92@gmail.com" and password "abc123".passed
+And clicks login button.....................................................passed
+Then Successfully logging In................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce user Login" name="Logging in with valid or invalid credentials - #1.2" time="8.473">
+<system-out><![CDATA[
+Given the user opens the browser and navigates to website...................passed
+When the user enters email "ankireddyprathap@gmail.com" and password "abc123".passed
+And clicks login button.....................................................passed
+Then Successfully logging In................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search using the search bar" name="Search for products in search bar - #1.1" time="6.35">
+<system-out><![CDATA[
+Given open the nopCommerce homepage.........................................passed
+When enter "Laptop" in the search bar.......................................passed
+And click the Search button.................................................passed
+Then searching product successfull..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search using the search bar" name="Search for products in search bar - #1.2" time="6.763">
+<system-out><![CDATA[
+Given open the nopCommerce homepage.........................................passed
+When enter "Smartphone" in the search bar...................................passed
+And click the Search button.................................................passed
+Then searching product successfull..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to Cart" name="Customer adds a product to the shopping cart and delete from cart - #1.1" time="23.943">
+<system-out><![CDATA[
+Given User on the nopCommerce home page.....................................passed
+When search for "laptop"....................................................passed
+And select the first product from the search results........................passed
+And add the product to the cart.............................................passed
+And delete from cart........................................................passed
+Then successfully added and deleted from cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to Cart" name="Customer adds a product to the shopping cart and delete from cart - #1.2" time="19.203">
+<system-out><![CDATA[
+Given User on the nopCommerce home page.....................................passed
+When search for "Apple iCam"................................................passed
+And select the first product from the search results........................passed
+And add the product to the cart.............................................passed
+And delete from cart........................................................passed
+Then successfully added and deleted from cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to wishlist" name="adding a product to wishlist - #1.1" time="7.826">
+<system-out><![CDATA[
+Given user on home page.....................................................passed
+When search a "Apple icam"..................................................passed
+When open product and add that to wishlist..................................passed
+Then successfully added to wishlist.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product checkout" name="adding a product product and complete checkout" time="16.718">
+<system-out><![CDATA[
+Given user on homepage......................................................passed
+When search a product and add to cart.......................................passed
+And Navigate to shopping cart...............................................passed
+And click on agree terms....................................................passed
+And click on checkout button................................................passed
+And click on checkout as guest button.......................................passed
+And enter billing details...................................................passed
+And click on continue button................................................passed
+And select shipping method and click continue button........................passed
+And select payment method and click continue button.........................passed
+And click continue for payment information..................................passed
+And click on confirm button.................................................passed
+Then Placed order successfully..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout functionality" name="LoggedIn user or Registered user able to logout" time="15.206">
+<system-out><![CDATA[
+Given user on nopcommerce homepage..........................................passed
+When Register the user......................................................passed
+And logout using logout button..............................................passed
+Then Logged out successfully................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare List functionality" name="Add a Product to compare list" time="5.882">
+<system-out><![CDATA[
+Given User on the product page..............................................passed
+When add to compare list....................................................passed
+Then successfully added to compare list.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change currency functionality" name="User able to change currency" time="5.69">
+<system-out><![CDATA[
+Given default homepage is open..............................................passed
+When change currency........................................................passed
+Then successfully currency change...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shop by Category functionality" name="User able to navigate through category" time="8.074">
+<system-out><![CDATA[
+Given user on default homepage..............................................passed
+When navigate to Apparel category...........................................passed
+And click on shoes..........................................................passed
+Then able to shop by category successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

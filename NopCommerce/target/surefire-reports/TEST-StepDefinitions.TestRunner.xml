@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="StepDefinitions.TestRunner" time="159.294" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce\target\test-classes;C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce\target\classes;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\Spandana\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\Spandana\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Spandana\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\Spandana\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Spandana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-junit\7.27.2\cucumber-junit-7.27.2.jar;C:\Users\Spandana\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Spandana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Spandana\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Spandana\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Spandana\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Spandana\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Spandana\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Spandana\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Spandana\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Spandana\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Spandana\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Spandana\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Spandana\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\Spandana\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Spandana\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\Spandana\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\Spandana\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Spandana\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Spandana\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Spandana\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Spandana\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Spandana\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Spandana\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Spandana\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Spandana\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Spandana\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\Wipro\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Spandana\AppData\Local\Temp\surefire13541017175421816572\surefirebooter-20250906085648868_3.jar C:\Users\Spandana\AppData\Local\Temp\surefire13541017175421816572 2025-09-06T08-56-48_752-jvmRun1 surefire-20250906085648868_1tmp surefire_0-20250906085648868_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce\target\test-classes;C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce\target\classes;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\Spandana\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\Spandana\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Spandana\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\Spandana\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\Spandana\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Spandana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-junit\7.27.2\cucumber-junit-7.27.2.jar;C:\Users\Spandana\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Spandana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Spandana\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Spandana\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Spandana\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Spandana\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Spandana\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Spandana\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Spandana\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Spandana\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Spandana\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Spandana\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Spandana\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Spandana\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Spandana\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\Spandana\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Spandana\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\Spandana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\Spandana\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\Spandana\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\Spandana\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Spandana\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Spandana\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Spandana\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Spandana\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Spandana\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Spandana\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Spandana\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Spandana\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Spandana\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Spandana\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Spandana\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\Spandana\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Spandana"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="D:\Wipro\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Spandana\AppData\Local\Temp\surefire13541017175421816572\surefirebooter-20250906085648868_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="Spandana"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Spandana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Spandana\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\Spandana\git\Swapna_Capstone_Project_Repo\NopCommerce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Wipro\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Wipro\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Spandana\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Spandana\anaconda3;C:\Users\Spandana\anaconda3\Library\mingw-w64\bin;C:\Users\Spandana\anaconda3\Library\usr\bin;C:\Users\Spandana\anaconda3\Library\bin;C:\Users\Spandana\anaconda3\Scripts;C:\Users\Spandana\AppData\Local\Programs\Python\Launcher\;C:\Users\Spandana\AppData\Local\Microsoft\WindowsApps;C:\Users\Spandana\Desktop\IntelliJ IDEA 2024.2.2\bin;;C:\Users\Spandana\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Successful registration with valid data #1" classname="nopCommerce User Registration" time="12.87">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Successful registration with valid data              &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/A_Register.feature:14&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser launches the browser and navigates to homepage&amp#27;[39m          &amp#27;[90m# StepDefinitions.A_Register.user_launches_the_browser_and_navigates_to_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser navigates to the Register page&amp#27;[39m                           &amp#27;[90m# StepDefinitions.A_Register.user_navigates_to_the_register_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser selects gender as &amp#27;[1m"Female"&amp#27;[22m&amp#27;[39m                                &amp#27;[90m# StepDefinitions.A_Register.user_selects_gender_as(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser enters First name &amp#27;[1m"MARY SWAPNA"&amp#27;[22m and Last name &amp#27;[1m"ANKIREDDY"&amp#27;[22m&amp#27;[39m &amp#27;[90m# StepDefinitions.A_Register.user_enters_first_name_and_last_name(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser enters unique &amp#27;[1m"swapnaankireddy92@gmail.com"&amp#27;[22m&amp#27;[39m               &amp#27;[90m# StepDefinitions.A_Register.user_enters_unique(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sets password &amp#27;[1m"abc123"&amp#27;[22m and confirms password&amp#27;[39m              &amp#27;[90m# StepDefinitions.A_Register.user_sets_password_and_confirms_password(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks on the Register button&amp#27;[39m                             &amp#27;[90m# StepDefinitions.A_Register.user_clicks_on_the_register_button()&amp#27;[39m
+registered successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mA success message should be displayed&amp#27;[39m                         &amp#27;[90m# StepDefinitions.A_Register.a_success_message_should_be_displayed()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:56:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:56:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Successful registration with valid data #2" classname="nopCommerce User Registration" time="13.385">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Successful registration with valid data          &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/A_Register.feature:15&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser launches the browser and navigates to homepage&amp#27;[39m      &amp#27;[90m# StepDefinitions.A_Register.user_launches_the_browser_and_navigates_to_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser navigates to the Register page&amp#27;[39m                       &amp#27;[90m# StepDefinitions.A_Register.user_navigates_to_the_register_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser selects gender as &amp#27;[1m"Male"&amp#27;[22m&amp#27;[39m                              &amp#27;[90m# StepDefinitions.A_Register.user_selects_gender_as(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser enters First name &amp#27;[1m"Prathap"&amp#27;[22m and Last name &amp#27;[1m"ANKIREDDY"&amp#27;[22m&amp#27;[39m &amp#27;[90m# StepDefinitions.A_Register.user_enters_first_name_and_last_name(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser enters unique &amp#27;[1m"ankireddyprathap@gmail.com"&amp#27;[22m&amp#27;[39m            &amp#27;[90m# StepDefinitions.A_Register.user_enters_unique(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sets password &amp#27;[1m"abc123"&amp#27;[22m and confirms password&amp#27;[39m          &amp#27;[90m# StepDefinitions.A_Register.user_sets_password_and_confirms_password(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks on the Register button&amp#27;[39m                         &amp#27;[90m# StepDefinitions.A_Register.user_clicks_on_the_register_button()&amp#27;[39m
+registered successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mA success message should be displayed&amp#27;[39m                     &amp#27;[90m# StepDefinitions.A_Register.a_success_message_should_be_displayed()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Logging in with valid or invalid credentials #1" classname="nopCommerce user Login" time="7.777">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Logging in with valid or invalid credentials                     &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/B_Login.feature:9&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user opens the browser and navigates to website&amp#27;[39m                      &amp#27;[90m# StepDefinitions.B_Login.the_user_opens_the_browser_and_navigates_to_website()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters email &amp#27;[1m"swapnaankireddy92@gmail.com"&amp#27;[22m and password &amp#27;[1m"abc123"&amp#27;[22m&amp#27;[39m &amp#27;[90m# StepDefinitions.B_Login.the_user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks login button&amp#27;[39m                                                        &amp#27;[90m# StepDefinitions.B_Login.clicks_login_button()&amp#27;[39m
+Successfully logged in
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mSuccessfully logging In&amp#27;[39m                                                   &amp#27;[90m# StepDefinitions.B_Login.successfully_logging_in()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Logging in with valid or invalid credentials #2" classname="nopCommerce user Login" time="8.447">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Logging in with valid or invalid credentials                    &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/B_Login.feature:10&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user opens the browser and navigates to website&amp#27;[39m                     &amp#27;[90m# StepDefinitions.B_Login.the_user_opens_the_browser_and_navigates_to_website()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters email &amp#27;[1m"ankireddyprathap@gmail.com"&amp#27;[22m and password &amp#27;[1m"abc123"&amp#27;[22m&amp#27;[39m &amp#27;[90m# StepDefinitions.B_Login.the_user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks login button&amp#27;[39m                                                       &amp#27;[90m# StepDefinitions.B_Login.clicks_login_button()&amp#27;[39m
+Successfully logged in
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mSuccessfully logging In&amp#27;[39m                                                  &amp#27;[90m# StepDefinitions.B_Login.successfully_logging_in()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search for products in search bar #1" classname="Product Search using the search bar" time="6.332">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Search for products in search bar &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/C_Search.feature:9&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the nopCommerce homepage&amp#27;[39m             &amp#27;[90m# StepDefinitions.C_Search.open_the_nop_commerce_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22menter &amp#27;[1m"Laptop"&amp#27;[22m in the search bar&amp#27;[39m           &amp#27;[90m# StepDefinitions.C_Search.enter_in_the_search_bar(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick the Search button&amp#27;[39m                     &amp#27;[90m# StepDefinitions.C_Search.click_the_search_button()&amp#27;[39m
+search successfull
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msearching product successfull&amp#27;[39m              &amp#27;[90m# StepDefinitions.C_Search.searching_product_successfull()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search for products in search bar #2" classname="Product Search using the search bar" time="6.75">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Search for products in search bar &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/C_Search.feature:10&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the nopCommerce homepage&amp#27;[39m             &amp#27;[90m# StepDefinitions.C_Search.open_the_nop_commerce_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22menter &amp#27;[1m"Smartphone"&amp#27;[22m in the search bar&amp#27;[39m       &amp#27;[90m# StepDefinitions.C_Search.enter_in_the_search_bar(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick the Search button&amp#27;[39m                     &amp#27;[90m# StepDefinitions.C_Search.click_the_search_button()&amp#27;[39m
+search successfull
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msearching product successfull&amp#27;[39m              &amp#27;[90m# StepDefinitions.C_Search.searching_product_successfull()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Customer adds a product to the shopping cart and delete from cart #1" classname="Add to Cart" time="23.904">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Customer adds a product to the shopping cart and delete from cart &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/D_Cart.feature:11&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser on the nopCommerce home page&amp#27;[39m                                         &amp#27;[90m# StepDefinitions.D_Cart.user_on_the_nop_commerce_home_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22msearch for &amp#27;[1m"laptop"&amp#27;[22m&amp#27;[39m                                                        &amp#27;[90m# StepDefinitions.D_Cart.search_for(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mselect the first product from the search results&amp#27;[39m                            &amp#27;[90m# StepDefinitions.D_Cart.select_the_first_product_from_the_search_results()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd the product to the cart&amp#27;[39m                                                 &amp#27;[90m# StepDefinitions.D_Cart.add_the_product_to_the_cart()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mdelete from cart&amp#27;[39m                                                            &amp#27;[90m# StepDefinitions.D_Cart.delete_from_cart()&amp#27;[39m
+Added and deleted from cart
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msuccessfully added and deleted from cart&amp#27;[39m                                   &amp#27;[90m# StepDefinitions.D_Cart.successfully_added_and_deleted_from_cart()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:57:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:57:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Customer adds a product to the shopping cart and delete from cart #2" classname="Add to Cart" time="19.203">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Customer adds a product to the shopping cart and delete from cart &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/D_Cart.feature:12&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser on the nopCommerce home page&amp#27;[39m                                         &amp#27;[90m# StepDefinitions.D_Cart.user_on_the_nop_commerce_home_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22msearch for &amp#27;[1m"Apple iCam"&amp#27;[22m&amp#27;[39m                                                    &amp#27;[90m# StepDefinitions.D_Cart.search_for(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mselect the first product from the search results&amp#27;[39m                            &amp#27;[90m# StepDefinitions.D_Cart.select_the_first_product_from_the_search_results()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd the product to the cart&amp#27;[39m                                                 &amp#27;[90m# StepDefinitions.D_Cart.add_the_product_to_the_cart()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mdelete from cart&amp#27;[39m                                                            &amp#27;[90m# StepDefinitions.D_Cart.delete_from_cart()&amp#27;[39m
+Added and deleted from cart
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msuccessfully added and deleted from cart&amp#27;[39m                                   &amp#27;[90m# StepDefinitions.D_Cart.successfully_added_and_deleted_from_cart()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:58:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:58:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="adding a product to wishlist" classname="Add to wishlist" time="7.807">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m adding a product to wishlist &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/E_Whislist.feature:9&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser on home page&amp#27;[39m                    &amp#27;[90m# StepDefinitions.E_Whislist.user_on_home_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22msearch a &amp#27;[1m"Apple icam"&amp#27;[22m&amp#27;[39m                 &amp#27;[90m# StepDefinitions.E_Whislist.search_a(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mopen product and add that to wishlist&amp#27;[39m &amp#27;[90m# StepDefinitions.E_Whislist.open_product_and_add_that_to_wishlist()&amp#27;[39m
+Successfully added to wishlist
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msuccessfully added to wishlist&amp#27;[39m        &amp#27;[90m# StepDefinitions.E_Whislist.successfully_added_to_wishlist()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:58:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:58:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="adding a product product and complete checkout" classname="Product checkout" time="16.695">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m adding a product product and complete checkout &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/F_Checkout.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser on homepage&amp#27;[39m                               &amp#27;[90m# StepDefinitions.F_Checkout.user_on_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22msearch a product and add to cart&amp#27;[39m                &amp#27;[90m# StepDefinitions.F_Checkout.search_a_product_and_add_to_cart()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mNavigate to shopping cart&amp#27;[39m                        &amp#27;[90m# StepDefinitions.F_Checkout.navigate_to_shopping_cart()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on agree terms&amp#27;[39m                             &amp#27;[90m# StepDefinitions.F_Checkout.click_on_agree_terms()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on checkout button&amp#27;[39m                         &amp#27;[90m# StepDefinitions.F_Checkout.click_on_checkout_button()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on checkout as guest button&amp#27;[39m                &amp#27;[90m# StepDefinitions.F_Checkout.click_on_checkout_as_guest_button()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22menter billing details&amp#27;[39m                            &amp#27;[90m# StepDefinitions.F_Checkout.enter_billing_details()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on continue button&amp#27;[39m                         &amp#27;[90m# StepDefinitions.F_Checkout.click_on_continue_button()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mselect shipping method and click continue button&amp#27;[39m &amp#27;[90m# StepDefinitions.F_Checkout.select_shipping_method_and_click_continue_button()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mselect payment method and click continue button&amp#27;[39m  &amp#27;[90m# StepDefinitions.F_Checkout.select_payment_method_and_click_continue_button()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick continue for payment information&amp#27;[39m           &amp#27;[90m# StepDefinitions.F_Checkout.click_continue_for_payment_information()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on confirm button&amp#27;[39m                          &amp#27;[90m# StepDefinitions.F_Checkout.click_on_confirm_button()&amp#27;[39m
+âœ… Placed order successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mPlaced order successfully&amp#27;[39m                       &amp#27;[90m# StepDefinitions.F_Checkout.placed_order_successfully()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:58:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:58:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="LoggedIn user or Registered user able to logout" classname="Logout functionality" time="15.184">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m LoggedIn user or Registered user able to logout &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/G_Logout.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser on nopcommerce homepage&amp#27;[39m                    &amp#27;[90m# StepDefinitions.G_Logout.user_on_nopcommerce_homepage()&amp#27;[39m
+registered successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mRegister the user&amp#27;[39m                                &amp#27;[90m# StepDefinitions.G_Logout.register_the_user()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mlogout using logout button&amp#27;[39m                        &amp#27;[90m# StepDefinitions.G_Logout.logout_using_logout_button()&amp#27;[39m
+Logged out successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mLogged out successfully&amp#27;[39m                          &amp#27;[90m# StepDefinitions.G_Logout.logged_out_successfully()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:58:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:58:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add a Product to compare list" classname="Compare List functionality" time="5.877">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Add a Product to compare list     &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/H_CompareList.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser on the product page&amp#27;[39m          &amp#27;[90m# StepDefinitions.H_CompareList.user_on_the_product_page()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22madd to compare list&amp#27;[39m                &amp#27;[90m# StepDefinitions.H_CompareList.add_to_compare_list()&amp#27;[39m
+Product Added to compare list
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msuccessfully added to compare list&amp#27;[39m &amp#27;[90m# StepDefinitions.H_CompareList.successfully_added_to_compare_list()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:59:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:59:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User able to change currency" classname="Change currency functionality" time="5.667">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m User able to change currency &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/I_Currency.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mdefault homepage is open&amp#27;[39m     &amp#27;[90m# StepDefinitions.I_Currency.default_homepage_is_open()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mchange currency&amp#27;[39m               &amp#27;[90m# StepDefinitions.I_Currency.change_currency()&amp#27;[39m
+Changed Currency Succesfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22msuccessfully currency change&amp#27;[39m  &amp#27;[90m# StepDefinitions.I_Currency.successfully_currency_change()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:59:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:59:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User able to navigate through category" classname="Shop by Category functionality" time="8.075">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m User able to navigate through category &amp#27;[90m# file:///C:/Users/Spandana/git/Swapna_Capstone_Project_Repo/NopCommerce/src/test/resources/feature/J_ShopByCat.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser on default homepage&amp#27;[39m               &amp#27;[90m# StepDefinitions.J_ShopByCat.user_on_default_homepage()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mnavigate to Apparel category&amp#27;[39m            &amp#27;[90m# StepDefinitions.J_ShopByCat.navigate_to_apparel_category()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on shoes&amp#27;[39m                           &amp#27;[90m# StepDefinitions.J_ShopByCat.click_on_shoes()&amp#27;[39m
+User able to navigate and shop and by category
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mable to shop by category successfully&amp#27;[39m   &amp#27;[90m# StepDefinitions.J_ShopByCat.able_to_shop_by_category_successfully()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2025 8:59:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 06, 2025 8:59:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

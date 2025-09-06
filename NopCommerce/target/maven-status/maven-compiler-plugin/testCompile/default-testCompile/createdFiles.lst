@@ -1,0 +1,12 @@
+StepDefinitions\E_Whislist.class
+StepDefinitions\C_Search.class
+StepDefinitions\I_Currency.class
+StepDefinitions\D_Cart.class
+StepDefinitions\TestRunner.class
+StepDefinitions\J_ShopByCat.class
+StepDefinitions\PageClass.class
+StepDefinitions\B_Login.class
+StepDefinitions\A_Register.class
+StepDefinitions\F_Checkout.class
+StepDefinitions\G_Logout.class
+StepDefinitions\H_CompareList.class
