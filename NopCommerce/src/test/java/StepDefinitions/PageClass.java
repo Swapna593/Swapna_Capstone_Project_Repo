@@ -89,8 +89,8 @@ public class PageClass {
 	
 	By shoeBtn=By.xpath("//*[@id=\"main\"]/div/div[3]/div/div[2]/div[1]/div/div[1]/div/h2/a");
 	
-	public PageClass(WebDriver driver1) {
-		this.driver = driver1;
+	public PageClass(WebDriver driver) {
+		this.driver = driver;
 	}
 	public void clickRegisterLink() {
 	    driver.findElement(registerlink).click();
@@ -167,7 +167,6 @@ public class PageClass {
 		        List<WebElement> removeBtns = driver.findElements(removeButtons);
 
 		        if (removeBtns.isEmpty()) {
-		            // All items removed—exit loop
 		            break;
 		        }
 
@@ -175,10 +174,8 @@ public class PageClass {
 
 		        try {
 		            btn.click();
-		            // Wait until the button's element is removed/stale
 		            wait.until(ExpectedConditions.stalenessOf(btn));
 		        } catch (StaleElementReferenceException e) {
-		            // Log or ignore—you'll refresh the element on next loop iteration
 		        }
 		    }
 
